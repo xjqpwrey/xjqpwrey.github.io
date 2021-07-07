@@ -1,0 +1,377 @@
+body {
+  margin: 0px;
+  background-color: #e4f2fd; /* 背景颜色 */
+}
+
+a {
+  /* 所有链接都没有下划线 */
+  text-decoration: none;
+}
+
+/*************** header页眉区 *****************/
+header {
+  height: 200px; /* 高度 */
+  background-color: #b0d6f5; /* 图片背景颜色 */
+  text-align: center; /* 可将图片居中 */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header img {
+  width: 1200px; /* 设置图片宽度 */
+}
+/*************** end of header *****************/
+
+/*************** nav导航区 *****************/
+nav {
+  width: 1200px;
+  height: 50px;
+  line-height: 50px; /* 保证导航区文字垂直居中 */
+  margin: 160px auto 0px auto; /* 保证导航区正好在header图片的下方 */
+  background-color: #bfc7b6;
+}
+
+nav ul {
+  list-style-type: none; /* 去掉li的标签 */
+}
+
+nav ul li {
+  display: inline; /* 横向排列 */
+  margin: 0px 90px; /* 设置间距 */
+}
+
+nav ul li a {
+  font-family: sans-serif; /* 字体 */
+  font-size: 20px; /* 字号 */
+  color: #fff;
+  text-decoration: none;
+}
+a:hover {
+  color: #124975; /* 鼠标悬停时的状态 */
+}
+
+/*************** end of nav *****************/
+
+/*************** inner内容区 *****************/
+div.inner {
+  width: 1200px; /* 宽度固定1200像素 */
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 80px;
+}
+
+div.inner div#container_1 {
+  /* 内容区1 */
+  height: 300px;
+  padding: 20px 0px;
+}
+
+/***** 内容区1_1 个人名片 *****/
+div.inner div#container_1 div#personInfo {
+  height: 300px;
+  width: 500px;
+  background: url("../images/首页/个人名片.png") no-repeat; /* 设置背景个人名片 */
+  float: left; /* 左浮动 */
+}
+
+div.inner div#container_1 div#personInfo h2 {
+  /* 设置字体样式 */
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  color: #fff;
+  letter-spacing: 6px;
+  margin-left: 55px;
+  margin-top: 70px;
+}
+
+div.inner div#container_1 div#personInfo div#my_headPot {
+  /* 设置头像位置 */
+  margin-left: 50px;
+  margin-top: 30px;
+}
+
+div.inner div#container_1 div#personInfo div#my_headPot img {
+  /* 设置头像大小 */
+  height: 100px;
+}
+
+div.inner div#container_1 div#personInfo ul {
+  list-style-type: none;
+  margin-top: 75px;
+}
+
+div.inner div#container_1 div#personInfo li {
+  margin-bottom: 20px;
+}
+
+.cd {
+  font-weight: bolder;
+  color: #d5e1eb;
+}
+
+.xx {
+  font-family: sans-serif;
+  font-weight: normal;
+  margin-right: 30px;
+}
+
+/***** 内容区1_1 end *****/
+
+/***** 内容区1_2 精选文章 *****/
+div.inner div#container_1 div#artical {
+  height: 300px;
+  width: 660px;
+  float: right; /* 右浮动 */
+}
+
+div.inner div#container_1 div#artical h1 {
+  /* 设置字体格式 */
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  color: #124975;
+  margin: 0px 0px;
+}
+
+div.inner div#container_1 div#artical div#jx1 {
+  /* 精选文章1-背景图片 */
+  height: 275px;
+  width: 200px;
+  background: url("../images/首页/精选文章1.png") no-repeat;
+  margin-top: 20px;
+  float: left;
+}
+
+div.inner div#container_1 div#artical div#jx1 div#T1 {
+  /* 精选文章1-文字 */
+  color: #fff;
+  margin-top: 170px;
+}
+
+div.inner div#container_1 div#artical div#jx1 div#T1 p {
+  /* 设置文字在图片中的位置 */
+  margin: 10px;
+}
+
+div.inner div#container_1 div#artical div#jx1 div#T1 a {
+  color: #fff;
+  text-decoration: none;
+}
+
+div.inner div#container_1 div#artical div#jx1 div#T1 a:hover {
+  font-size: 22px;
+}
+
+/* 精选文章2 */
+div.inner div#container_1 div#artical div#jx2 {
+  height: 275px;
+  width: 440px;
+  margin: 20px 10px;
+  float: left;
+  margin-bottom: 30px;
+}
+
+/* 精选文章2-图片 */
+div.inner div#container_1 div#artical div#jx2 div#jx2_img {
+  float: left;
+}
+
+div.inner div#container_1 div#artical div#jx2 p {
+  margin: 0px;
+  margin-bottom: 20px;
+}
+
+/* 精选文章2-文字 */
+div.inner div#container_1 div#artical div#jx2 div#jx2_txt {
+  width: 247px;
+  float: left;
+}
+
+div.inner div#container_1 div#artical div#jx2 div#jx2_txt div.T2 {
+  height: 110px;
+  width: 247px;
+  background-color: #fff;
+  margin-bottom: 20px;
+  float: right;
+}
+
+/* 精选文章2-文字-年份 */
+div.inner div#container_1 div#artical div#jx2 div#jx2_txt div.T2_ym {
+  color: #fff;
+  text-align: center;
+  width: 120px;
+  background-color: #3077b1;
+  margin: 10px 10px;
+}
+
+/* 精选文章2-文字-标题 */
+div.inner div#container_1 div#artical div#jx2 div#jx2_txt div.T2_b {
+  margin: 10px 10px;
+}
+
+/* 文章标题链接 */
+div.inner div#container_1 div#artical div#jx2 div#jx2_txt div.T2_b a {
+  font-size: 16px;
+  color: #333;
+  text-decoration: none;
+}
+
+/* 鼠标悬停样式 */
+div.inner div#container_1 div#artical div#jx2 div#jx2_txt div.T2_b a:hover {
+  color: #3077b1;
+}
+
+/* 精选文章2-文字-内容 */
+div.inner div#container_1 div#artical div#jx2 div#jx2_txt div.T2_n {
+  font-size: 12px;
+  margin: 10px 10px;
+}
+
+/***** 内容区1_2 end *****/
+
+/***** 内容区2_1 *****/
+div.inner div#container_2 {
+  /* 内容区2 */
+  height: 500px;
+  padding: 50px 0px;
+}
+
+div.inner div#container_2 div#cont_2_1 {
+  /* 内容区2_1 最新文章 */
+  height: auto;
+  width: 790px;
+  float: left; /* 左浮动 */
+}
+
+div.inner div#container_2 div#cont_2_1 h1 {
+  /* 设置字体格式 */
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  color: #124975;
+}
+
+div.inner div#container_2 div#cont_2_1 div.nw_art {
+  /* “最新文章”版块 */
+  height: 167px;
+  width: 790px;
+  background-color: #fff;
+  margin-bottom: 10px;
+}
+
+div.inner div#container_2 div#cont_2_1 div.nw_art div.img {
+  /* 最新文章-图片 */
+  margin-top: 10px;
+  margin-left: 10px;
+  float: left;
+}
+
+div.inner div#container_2 div#cont_2_1 div.nw_txt {
+  /* 最新文章-文章介绍 */
+  margin-left: 40px;
+  float: left;
+}
+
+div.inner div#container_2 div#cont_2_1 div.nw_txt h1 {
+  /* 最新文章-文章标题 */
+  font-family: sans-serif;
+  color: #0a3a61;
+  margin: 20px 0px;
+}
+
+div.inner div#container_2 div#cont_2_1 div.nw_txt p {
+  /* 最新文章-文章内容 */
+  font-family: serif;
+  color: #333;
+  width: 475px;
+}
+/***** 内容区2_1 end *****/
+
+/***** 内容区2_2 end *****/
+div.inner div#container_2 div#cont_2_2 {
+  /* 内容区2_1 日记/音乐 */
+  height: 520px;
+  width: 390px;
+  background-color: #fff;
+  margin-top: 53px;
+  float: right; /* 右浮动 */
+}
+
+/* 日志标题 */
+div.inner div#container_2 div#cont_2_2 div#diary div#D_hed {
+  height: 30px;
+  width: 390px;
+  margin-top: 10px;
+}
+
+/* 日志样式 */
+div.inner div#container_2 div#cont_2_2 div#diary div#D_hed div#journal {
+  font-family: sans-serif;
+  font-size: 20px;
+  color: #124975;
+  margin-left: 10px;
+  float: left;
+}
+
+/* 更多按钮 */
+div.inner div#container_2 div#cont_2_2 div#diary div#D_hed div#more {
+  margin-right: 10px;
+  float: right;
+}
+/* 链接 */
+div.inner div#container_2 div#cont_2_2 div#diary div#D_hed div#more a {
+  font-family: serif;
+  font-size: 16px;
+  font-weight: normal;
+  color: #124975;
+}
+
+div.inner div#container_2 div#cont_2_2 div#diary div#D_hed div#more a:hover {
+  color: rgb(139, 1, 1);
+}
+
+div.inner div#container_2 div#cont_2_2 div#diary div#D_lit {
+  width: 390px;
+}
+/* 鼠标悬停链接样式 */
+div.inner div#container_2 div#cont_2_2 div#diary div#D_lit a:hover {
+  color: #ca5b00;
+}
+/* 日志列表 */
+div.inner div#container_2 div#cont_2_2 div#diary div#D_lit ol {
+  margin: 0px;
+  padding: 10px 50px;
+}
+
+div.inner div#container_2 div#cont_2_2 div#diary div#D_lit ol li {
+  font-family: serif;
+  margin-bottom: 10px;
+}
+
+/* 音乐 */
+div.inner div#container_2 div#cont_2_2 div#music {
+  margin-left: 10px;
+}
+
+div.inner div#container_2 div#cont_2_2 div#music h1 {
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  color: #124975;
+  margin: 0px;
+}
+/*************** end of inner *****************/
+
+/*************** footer页脚区 *****************/
+footer {
+  font-family: serif;
+  font-size: 14px;
+  color: #124975;
+  line-height: 2px;
+  height: 100px;
+  background-color: #b0d6f5;
+  text-align: center;
+}
+
+/*************** end of footer *****************/

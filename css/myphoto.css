@@ -1,0 +1,129 @@
+body {
+  margin: 0px;
+  background-color: #e4f2fd; /* 背景颜色 */
+}
+
+/*************** header页眉区 *****************/
+header {
+  height: 200px; /* 高度 */
+  background-color: #b0d6f5; /* 图片背景颜色 */
+  text-align: center; /* 可将图片居中 */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header img {
+  width: 1200px; /* 设置图片宽度 */
+}
+/*************** end of header *****************/
+
+/*************** nav导航区 *****************/
+nav {
+  width: 1200px;
+  height: 50px;
+  line-height: 50px; /* 保证导航区文字垂直居中 */
+  margin: 160px auto 0px auto; /* 保证导航区正好在header图片的下方 */
+  background-color: #bfc7b6;
+}
+
+nav ul {
+  list-style-type: none; /* 去掉li的标签 */
+}
+
+nav ul li {
+  display: inline; /* 横向排列 */
+  margin: 0px 90px; /* 设置间距 */
+}
+
+nav ul li a {
+  font-family: sans-serif; /* 字体 */
+  font-size: 20px; /* 字号 */
+  color: #fff;
+  text-decoration: none;
+}
+a:hover {
+  color: #124975; /* 鼠标悬停时的状态 */
+}
+
+/*************** end of nav *****************/
+
+/*************** inner内容区 *****************/
+div.inner {
+  width: 1200px; /* 宽度固定1200像素 */
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 80px;
+}
+
+/* 设置字体样式 */
+div.inner div#head h2 {
+  font-family: sans-serif;
+  color: #2f5496;
+  margin-top: 30px;
+}
+
+/* 设置图片样式和排版 */
+div.inner div#photo ul {
+  list-style: none; /* 去掉列前的图标 */
+  padding: 0px;
+}
+
+div.inner div#photo ul li.P_img {
+  display: inline; /* 横向排版 */
+  margin-right: 20px; /* 设置间隔 */
+}
+
+div.inner div#photo ul li.L_img {
+  float: right; /* 最后一张图片靠右 */
+}
+
+div.inner div#photo ul li img {
+  height: 280px; /* 设置图片高度 */
+  border-radius: 2em; /* 设置图片圆角属性 */
+}
+
+/* 设置页码导航区 */
+div.inner div#page_nav {
+  height: 30px;
+  width: 100%;
+  text-align: center; /* 居中显示 */
+  background-color: #fff; /* 背景颜色 */
+  margin: 30px 0px;
+}
+
+div.inner div#page_nav ul {
+  list-style-type: none; /* 去掉列前的图标 */
+}
+
+div.inner div#page_nav ul li {
+  display: inline; /* 横向显示 */
+  margin-right: 30px; /* 设置间距 */
+}
+
+div.inner div#page_nav ul li a:link {
+  /* 链接未被点击时的状态 */
+  font-family: serif;
+  color: #2f5496;
+  text-decoration: none; /* 去掉下划线 */
+}
+
+div.inner div#page_nav ul li a:hover {
+  /* 鼠标悬浮在上的链接状态 */
+  font-family: serif;
+  color: rgb(163, 163, 163);
+  text-decoration: none; /* 去掉下划线 */
+}
+/*************** end of inner *****************/
+
+/*************** footer页脚区 *****************/
+footer {
+  font-family: serif;
+  font-size: 14px;
+  color: #124975;
+  line-height: 2px;
+  height: 100px;
+  background-color: #b0d6f5;
+  text-align: center;
+}
+
+/*************** end of footer *****************/

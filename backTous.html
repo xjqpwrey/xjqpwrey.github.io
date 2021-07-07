@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>反馈</title>
+    <link rel="stylesheet" href="css/backTous.css">
+</head>
+<body>
+    <div class="inner">
+        <form action="index.html">
+            <div>
+                <table class="table">
+                    <tr>
+                        <td class="answer">
+                            <!-- 输入框 -->
+                            <p>
+                                <span id="name">请输入您的姓名</span>
+                                <input type="text" name="name" id="" placeholder="请输入姓名">
+                            </p>
+                            <p>
+                                <span id="phone">请输入您的手机号</span>
+                                <input type="text" name="name" id="" placeholder="请输入手机号">
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="dq">
+                            <p>您对该网站的设计感觉如何？</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="dq">
+                            <!-- 单项选择 -->
+                            <input type="radio" name="answer" id="answer1">
+                            <label for="answer1">满意</label><br>
+    
+                            <input type="radio" name="answer" id="answer2">
+                            <label for="answer2">一般</label><br>
+    
+                            <input type="radio" name="answer" id="answer3">
+                            <label for="answer3">不满意</label><br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="dq">
+                            请提出您的建议，我们定当认真考虑！
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="dq">
+                            <!-- text -->
+                            <textarea name="comments" id="comments" cols="50" rows="10"></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="dq">
+                            <!-- submit -->
+                            <button type="submit" value="提交">提交</button>
+                        </td>
+                    </tr>
+                    <tr>
+                    </tr>
+                </table>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

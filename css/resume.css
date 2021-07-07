@@ -1,0 +1,178 @@
+body {
+  margin: 0px;
+  background-color: #e4f2fd; /* 背景颜色 */
+}
+
+/*************** header页眉区 *****************/
+header {
+  height: 200px; /* 高度 */
+  background-color: #b0d6f5; /* 图片背景颜色 */
+  text-align: center; /* 可将图片居中 */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header img {
+  width: 1200px; /* 设置图片宽度 */
+}
+/*************** end of header *****************/
+
+/*************** nav导航区 *****************/
+nav {
+  width: 1200px;
+  height: 50px;
+  line-height: 50px; /* 保证导航区文字垂直居中 */
+  margin: 160px auto 0px auto; /* 保证导航区正好在header图片的下方 */
+  background-color: #bfc7b6;
+}
+
+nav ul {
+  list-style-type: none; /* 去掉li的标签 */
+}
+
+nav ul li {
+  display: inline; /* 横向排列 */
+  margin: 0px 90px; /* 设置间距 */
+}
+
+nav ul li a {
+  font-family: sans-serif; /* 字体 */
+  font-size: 20px; /* 字号 */
+  color: #fff;
+  text-decoration: none;
+}
+a:hover {
+  color: #124975; /* 鼠标悬停时的状态 */
+}
+
+/*************** end of nav *****************/
+
+/*************** inner内容区 *****************/
+div.inner {
+  height: 1000px;
+  width: 1200px; /* 宽度固定1200像素 */
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 80px;
+}
+
+div.inner div#P_Info {
+  /* 左边个人信息页 */
+  height: 1000px;
+  width: 500px;
+  background-color: rgb(219, 219, 219);
+  margin: 10px 0px;
+  float: left;
+}
+
+div.inner div#P_Info div#my_Hed img {
+  /* 头像 */
+  height: 200px;
+  margin-top: 100px;
+  margin-left: 150px;
+}
+
+div.inner div#P_Info div#bas_Info {
+  /* 基本信息字体样式 */
+  font-family: sans-serif;
+  font-size: 30px;
+  color: #2f5496;
+  margin-top: 30px;
+  margin-left: 150px;
+}
+
+div.inner div#P_Info div#xm {
+  /* 基本信息里的字体样式 */
+  font-family: serif;
+  font-size: 20px;
+  font-weight: bolder;
+  color: #333;
+  margin-left: 150px;
+}
+
+div.inner div#P_Info div#skill {
+  /* 技能块 */
+  margin-top: 30px;
+  margin-left: 150px;
+}
+
+div.inner div#P_Info div#xm li {
+  margin-bottom: 10px;
+}
+
+div.inner div#Exp {
+  /* 左边个人信息页 */
+  height: 1000px;
+  width: 700px;
+  background-color: #fff;
+  margin: 10px 0px;
+  float: right;
+}
+
+div.inner div#Exp div#S_img {
+  /* 小标题 */
+  font-family: sans-serif;
+  font-size: 30px;
+  color: #2f5496;
+  margin-left: 100px;
+  margin-top: 100px;
+}
+
+div.inner div#Exp div#S_img p {
+  /* 自我介绍 */
+  font-family: sans-serif;
+  font-size: 20px;
+  color: #333;
+  text-indent: 2em;
+  width: 550px;
+}
+
+div.inner div#Exp div#work {
+  /* 工作经历 */
+  height: 500px;
+  width: 550px;
+  background: url("../images/个人简历页/工作经历.png") no-repeat; /* 背景图片 */
+  margin-top: 100px;
+  margin-left: 80px;
+  padding-top: 80px;
+}
+
+div.inner div#Exp div#work div#jl1 {
+  /* 经历1 */
+  margin-left: 80px;
+}
+
+div.inner div#Exp div#work div#jl2 {
+  /* 经历2 */
+  margin-top: 20px;
+  margin-left: 80px;
+}
+
+div.inner div#Exp div#work h2 {
+  /* 工作经历标题 */
+  font-family: sans-serif;
+  font-size: 18px;
+  color: #2f5496;
+}
+
+div.inner div#Exp div#work p {
+  /* 工作经历内容 */
+  font-family: serif;
+  font-size: 16px;
+  color: #333;
+}
+
+/*************** end of inner *****************/
+
+/*************** footer页脚区 *****************/
+footer {
+  font-family: serif;
+  font-size: 14px;
+  color: #124975;
+  line-height: 2px;
+  height: 100px;
+  background-color: #b0d6f5;
+  text-align: center;
+}
+
+/*************** end of footer *****************/

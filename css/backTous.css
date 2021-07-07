@@ -1,0 +1,35 @@
+body {
+  margin: 0px;
+  background-color: #e4f2fd; /* 背景颜色 */
+}
+
+div.inner {
+  height: 1000px;
+  width: 800px; /* 宽度固定1200像素 */
+  background: url("../images/反馈/信封.png") no-repeat;/* 背景图片 */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.table {
+    /* 凝胶布局 */
+  width: 100%;
+  margin: 0px 90px 10px 180px;
+}
+
+#name{
+    margin-right: 40px;
+}
+
+#phone{
+    margin-right: 20px;
+}
+
+.answer{
+    line-height: 10px;/* 设置行距 */
+    padding: 80px 24px 0px 37px;/* 保证输入框对齐 */
+}
+
+.dq{
+    padding: 0px 140px 0px 37px;/* 保证对齐 */
+}
